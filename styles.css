@@ -44,7 +44,43 @@ html,body{
 .one{
     display: flex;
     flex: 1;
+    height: 25%;
+    justify-content:center;
+}
+.boxesClass{
+    display: flex;
+    flex: 1;
+    margin-top: 30px;
+    margin-bottom: 60px;
     
+}
+.boxOneClass{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.boxTwoClass{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.boxThreeClass{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.boxFourClass{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
 }
 .signUpSection{
     display: flex;
@@ -65,6 +101,8 @@ html,body{
     justify-content: center;
     justify-items: center;
     padding-right: 105px;
+    padding-bottom: 60px;
+    padding-left: 20px;
     background-color: #1F2937;
 }
 #signUpHeader{
@@ -84,10 +122,11 @@ html,body{
     font-weight: bold;
 }
 .two{
-    background-color: #E5E7EB;
+    background-color: white;
     display: flex;
     flex: 1;
     flex-direction: column;
+    height: 25%;
 }
 #divTwoHeading{
     font-size: 36px;
@@ -95,32 +134,31 @@ html,body{
     display: flex;
     flex: 1;
     justify-content: center;
-}
-.boxesClass{
-    display: flex;
-    flex: 1;
-    justify-content: center;
+    margin-top: 30px;
 }
 #boxOne{
     border: solid #3882F6;
     background-color: white;
     border-radius: 5px;
     height: 100px;
-    width: 100px
+    width: 100px;
+    margin-right: 30px;
 }
 #boxTwo{
     border: solid #3882F6;
     background-color: white;
     border-radius: 5px;
     height: 100px;
-    width: 100px
+    width: 100px;
+    margin-right: 30px;
 }
 #boxThree{
     border: solid #3882F6;
     background-color: white;
     border-radius: 5px;
     height: 100px;
-    width: 100px
+    width: 100px;
+    margin-right: 30px;
 }
 #boxFour{
     border: solid #3882F6;
@@ -128,4 +166,55 @@ html,body{
     border-radius: 5px;
     height: 100px;
     width: 100px
+}
+.three{
+    display: flex;
+    flex: 1;
+    background-color: #E5E7EB;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 25%;
+}
+.four{
+    display: flex;
+    flex: 1;
+    height: 25%;
+    background-color: white;
+}
+.callToAction{
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 50px;
+    color: white;
+    border-radius: 5px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#btnContainer{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-right: -50px;
+}
+#actionButton{
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    justify-content: left;
+    width: 35%;
 }
