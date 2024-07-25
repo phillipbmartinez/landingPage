@@ -1,0 +1,131 @@
+*{
+    font-family: sans-serif;
+    /* border: solid red 1px; */
+}
+html,body{
+    margin:0;
+    padding:0
+}
+.header{
+    background-color: #1F2937;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex: 1;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.headerLogo{
+    padding-left: 80px;
+    margin-top: -10px;
+    font-size: 24px;
+}
+.header-links{
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    margin: 18px;
+    padding-right: 80px;
+}
+.links{
+    margin-left: 25px;
+}
+.footer{
+    background-color: #1F2937;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content:center;
+}
+.one{
+    display: flex;
+    flex: 1;
+    
+}
+.signUpSection{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1F2937;
+    font-family: sans-serif;
+    color: white;
+    flex-direction: column;
+    padding-left: 90px;
+}
+#soccerBall{
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    justify-items: center;
+    padding-right: 105px;
+    background-color: #1F2937;
+}
+#signUpHeader{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+#signUpSubText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#signUpButton{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.two{
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+#divTwoHeading{
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.boxesClass{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+#boxOne{
+    border: solid #3882F6;
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px
+}
+#boxTwo{
+    border: solid #3882F6;
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px
+}
+#boxThree{
+    border: solid #3882F6;
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px
+}
+#boxFour{
+    border: solid #3882F6;
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px
+}
